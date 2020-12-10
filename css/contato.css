@@ -1,0 +1,134 @@
+/* Header */
+header{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/capa.png);
+    top: 0;
+    z-index: 10;
+}
+
+.sociais{
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+/*------------------------------------
+Contatos*/
+.contatos{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 320px;
+}
+
+.formulario{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+    letter-spacing: .1em;
+}
+
+.dados{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #504e4eb6;
+    margin-left: 80px;
+}
+.dados p{
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+#nome{
+    width: 300px;
+    margin: 2px 0px 8px 0px;
+    border: #707070 solid 2.5px;
+}
+
+#email{
+    width: 300px;
+    margin: 2px 0px 8px 0px;
+    border: #707070 solid 2.5px;
+}
+
+#telefone{
+    width: 300px;
+    margin: 2px 0px 8px 0px;
+    border: #707070 solid 2.5px;
+}
+
+#mensagem{
+    width: 300px;
+    margin: 2px 0px 8px 0px;
+    border: #707070 solid 2.5px;
+}
+
+.btn-contato{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #707070;
+    border: #707070 solid 2.5px;
+}
+
+.btn-contato:hover{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #70707057;
+    border: #70707057 solid 2.5px;
+}
+.sociais-dados{
+    display: block;
+    text-align: left;
+    margin-top: 70px;
+    filter: brightness(1%)
+}
+
+.insta{
+    margin-left: 40px;
+}
+
+.sociais-dados a img{
+    width: 100px;
+    height: 100px;
+}
+
+.sociais-dados a img:hover{
+    width: 90px;
+    height: 90px;
+}
+
+/*------------------------------------
+Mapa*/
+.mapa{
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.mapa img{
+    width: 906px;
+    height: 300px;
+    text-align: center;
+    border: #707070 solid 1px;
+    filter: brightness(80%);
+}
+
+.mapa img:hover{
+    width: 833px;
+    height: 276px;
+    filter: brightness(50%);
+}
+
+/*------------------------------------
+Acesso*/
+.acesso{
+    display: block;
+    margin: 50px auto;
+    padding-left: 30px;
+    text-align: center;
+}

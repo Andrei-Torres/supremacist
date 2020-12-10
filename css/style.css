@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* Header */
+header{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: #000;
+    top: 0;
+    z-index: 10;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu ul{
+    padding:0px;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    font-family: 'Caveat', cursive;
+    color: #707070;
+    font-size: 30px; 
+    border: solid #707070 2px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 5px 1px 1px;
+
+}
+
+.menu ul li a:hover{
+    color: #fff;
+}
+
+.logo{
+    display: block;
+}
+
+.logo img{
+    display: block;
+    margin: 80px auto;
+}
+
+
+.sociais{
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.sociais a img:hover{
+    filter: brightness(20%)
+}
+
+.sociais a{
+    margin: 10px;
+}
+/*----------------------------------------------------
+Apresentação*/
+.apresentacao{
+    margin: 526px auto 0 auto;
+    text-align: center;
+}
+
+.apresentacao ul li{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.apresentacao h1{
+    float: none;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    max-width: 670px;
+    margin: 50px auto 10px auto;
+}
+
+
+
+.apresentacao p{
+    float: none;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    max-width: 670px;
+    margin: 50px auto 10px auto;
+}
+
+.apresentacao .legenda{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.apresentacao .legenda:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #000;
+    margin: 4px auto 20px auto;
+}
+
+/*--------------------------------------------------------------------------
+qualidade*/
+.qualidade{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.qualidade img{
+    width: 500px;
+    height: 120px;
+}
+
+.qualidade ul li{
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: .1em;
+    width: 33.33%;
+    float: left;
+}
+
+.qualidade ul li:before,.qualidade ul li:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #000;
+    margin: 4px auto;
+}
+/*------------------------------------
+Acesso*/
+.acesso{
+    margin-top: 150px;
+    padding-left: 30px;
+}
+
+.acesso p{
+    display: inline;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.btn:hover{
+    font-size: 40px;
+    filter: brightness(50%);
+}
+/*-----------------------------------------------------
+Footer*/
+.footer{
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}

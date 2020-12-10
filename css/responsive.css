@@ -1,0 +1,191 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+	header{
+		background: url(/img/capa-tablet.png) no-repeat;
+	}
+
+	.fundo-preto{
+		position: absolute;
+		background: #000;
+		width: 100%;
+	}
+
+	.logo img{
+		display: block;
+		margin: 80px auto;
+	}
+
+	.apresentacao div p{
+		text-align: center;
+		max-width: 500px;
+	}
+
+	.apresentacao-servicos{
+		padding-left: 200px;
+	 }
+
+	.contatos{
+		margin-left: 106px;
+	}
+}
+/*___________________________________________________________________________________________________________*/
+
+/*Estilo para smartphones*/
+@media only screen and (max-width: 787px){
+
+	header{
+		background: url(/img/capa-smartphone.png) no-repeat;
+	}
+
+	.fundo-preto{
+		position: absolute;
+		background: #000;
+		width: 100%;
+	}
+
+	.logo img{
+		width: 415px;
+		height: 100px;
+		display: block;
+		margin: 80px auto 0px auto;
+	}
+
+	.sociais{
+		margin-top: 35px;
+	}
+
+	.apresentacao{
+		margin: 426px auto 0 auto;
+	}
+
+	.apresentacao h1{
+		font-size: 36px;
+	}
+
+	.apresentacao div p{
+		font-size: 36px;
+		text-align: center;
+		max-width: 200px;
+	}
+
+	.apresentacao .legenda{
+		font-size: 26px;
+	}
+
+	.apresentacao ul li img{
+		width: 130px;
+		height: 130px;
+	}
+
+	.qualidade img{
+		width: 353px;
+		height: 85px;
+	}
+
+	.qualidade ul li{
+		font-size: 20px;
+	}
+
+	.acesso p{
+		display: block;
+		margin: 30px auto 60px auto;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.btn{
+	   font-size: 30px;
+	   font-weight: bold;
+	}
+	
+	.btn:hover{
+		font-size: 40px;
+		filter: brightness(50%);
+	}
+
+	.apresentacao-servicos{
+		padding-left: 25px;
+	 }
+
+	 .apresentacao .legenda{
+		font-size: 20px;
+	}
+
+	.ul-eletrica{
+		margin-left: 5px;
+		font-size: 18px;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	
+	.ul-iluminacao{
+		margin-left: -40px;
+		font-size: 18px;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	
+	.ul-pintura{
+		margin-left: 15px;
+		font-size: 18px;
+		font-family: 'Times New Roman', Times, serif;
+	}
+
+	.contatos{
+		margin-left: 20px;
+	}
+
+	.formulario{
+		font-size: 16px;
+	}
+
+	.dados{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+
+	
+	#nome{
+    	width: 200px;
+	}
+
+	#email{
+		width: 200px;
+	}	
+
+	#telefone{
+		width: 200px;
+	}
+
+	#mensagem{
+		width: 200px;
+	}
+
+	.btn-contato{
+		font-size: 14px;
+	}
+	
+	.btn-contato:hover{
+		font-size: 12px;
+	}
+
+	.sociais-dados a img{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociais-dados a img:hover{
+		width: 40px;
+		height: 40px;
+	}
+
+	.mapa img{
+		width: 407px;
+		height: 135px;
+	}
+
+	.mapa img:hover{
+		width: 354px;
+		height: 117px;
+	}
+}
